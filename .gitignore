@@ -1,0 +1,36 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# PySpark / Spark
+spark-warehouse/
+metastore_db/
+derby.log
+*.log
+
+# Environment variables and secrets
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# Python test cache
+.pytest_cache/
+.coverage
