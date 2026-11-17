@@ -9,6 +9,7 @@ spark = create_spark_session()
 try:
 
     task_01(spark)
+    task_02(spark)
 
 finally:
 
